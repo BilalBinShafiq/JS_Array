@@ -1,16 +1,16 @@
-// Objects
+// ***** // Objects // ***** // 
 // In real life, objects are things like: houses, cars, people, animals, or any other subjects.
 
-// Objects Properties
+// Properties / Attributes / Columns / 
 // A real life car has properties like weight and color:
 
-// Object Methods
+// Methods / Functions / Behavioud / 
 // A real life car has methods like start and stop:
 
 // JavaScript Variables
 // JavaScript variables are containers for data values.
 
-// How to Define a JavaScript Object
+// ***** // How to Define a JavaScript Object // ***** // 
 
 // Using an Object Literal
 const litPerson = { firstName: "John", lastName: "Doe", age: 50, eyeColor: "blue" }
@@ -45,6 +45,8 @@ person.eyeColor = "blue";
 // symbol
 // bigint
 // Immutable
+
+
 // Primitive values are immutable (they are hardcoded and cannot be changed).
 
 // if x = 3.14, you can change the value of x, but you cannot change the value of 3.14.
