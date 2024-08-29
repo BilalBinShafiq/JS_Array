@@ -92,35 +92,42 @@ console.log(
 console.log(
   "Array after applying sort() : ",
   numbers.sort(
-    (a, b) => a - b)
+    (a, b) => a - b
+  )
 );
 // toSorted() : This method sorts an array alphabetically without altering the original array.
 console.log(
   "Array after applying toSorted() : ",
   numbers.toSorted(
-    (a, b) => a - b)
+    (a, b) => a - b
+  )
 );
 // reverse() : This method reverses the elements in an array with altering the original array.
 console.log(
   "Array after applying reverse() : ",
   numbers.reverse(
-    (a, b) => a - b)
+    (a, b) => a - b
+  )
 );
 // toReversed() : This method reverses the elements in an array without altering the original array.
 console.log(
   "Array after applying toReversed() : ",
   numbers.toReversed(
-    (a, b) => a - b)
+    (a, b) => a - b
+  )
 );
 // Sorting an Array in Random Order:
 console.log(
   "Array after sorting in  Random Order : ",
   numbers.sort(
-    () => 0.5 - Math.random())
+    () => 0.5 - Math.random()
+  )
 );
 // The Fisher Yates Method:
 for (let i = numbers.length - 1; i > 0; i--) {
-  let j = Math.floor(Math.random() * (i + 1));
+  let j = Math.floor(
+    Math.random() * (i + 1)
+  );
   let k = numbers[i];
   numbers[i] = numbers[j];
   numbers[j] = k;
