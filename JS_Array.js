@@ -17,19 +17,19 @@ const numbers = [13, 3, 6, 3, 7, 9, 12, 3, 4, 1, 2, 3, 5];
 // indexOf()  : Searches an array for an element value and returns its position.
 console.log(
   "Position of element 3 is : ",
-  numbers.indexOf(3)
+  numbers.indexOf(3) // 1
 );
 
 // lastIndexOf() : Same as Array.indexOf(), but returns the position of the last occurrence of the specified element.
 console.log(
   "position of the last occurrence of 3 is : ",
-  numbers.lastIndexOf(3)
+  numbers.lastIndexOf(3) // 11
 );
 
 // includes() : Allows us to check if an element is present in an array (including NaN, unlike indexOf).
 console.log(
   "3 is Present?  : ",
-  numbers.includes(3)
+  numbers.includes(3) // true
 );
 
 // find() : returns the value of the first array element that passes a test function.
@@ -38,7 +38,7 @@ console.log(
   numbers.find(
     x => x == 3
   )
-);
+); // 3
 
 // findIndex : returns the index of the first array element that passes a test function.
 console.log(
@@ -46,7 +46,7 @@ console.log(
   numbers.findIndex(
     x => x == 3
   )
-);
+); // 1
 
 // findLast() : will start from the end of an array and return the value of the first element that satisfies a condition.
 console.log(
@@ -154,7 +154,7 @@ numbers.forEach(
 console.log(
   "Applying map() by multiplying all values with 2 : ",
   numbers.map(
-    (x, y, z) => x * 2
+    x => x * 2
   )
 );
 
